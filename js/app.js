@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
         
         // 默认选中过滤开关
-        localStorage.setItem('yellowFilterEnabled', 'false');
+        localStorage.setItem('yellowFilterEnabled', 'true');
         localStorage.setItem(PLAYER_CONFIG.adFilteringStorage, 'false');
         
         // 默认启用豆瓣功能
-        localStorage.setItem('doubanEnabled', 'false');
+        localStorage.setItem('doubanEnabled', 'true');
 
         // 标记已初始化默认值
         localStorage.setItem('hasInitializedDefaults', 'true');
